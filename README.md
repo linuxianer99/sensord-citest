@@ -1,0 +1,2 @@
+# sensord-citest
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6f36a36ac876441b8f91148eb3370c86)](https://app.codacy.com/manual/linuxianer99/sensord-citest?utm_source=github.com&utm_medium=referral&utm_content=linuxianer99/sensord-citest&utm_campaign=Badge_Grade_Settings)
