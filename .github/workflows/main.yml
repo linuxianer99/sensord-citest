@@ -29,11 +29,3 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Build
       run: make
-  
-  codacy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: codacy-analysis-cli
-        uses: mrfyda/codacy-analysis-cli-action@v1.0
-        with:
-          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
