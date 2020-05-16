@@ -9,7 +9,7 @@ OBJ_CAL = $(patsubst %,$(ODIR)/%,$(_OBJ_CAL))
 LIBS = -lrt -lm
 ODIR = obj
 BINDIR = /opt/bin/
-GIT_VERSION := $(shell git describe --dirty)
+GIT_VERSION := $(shell git describe --abbrev=4 --dirty --always --tags)
 
 #targets
 
